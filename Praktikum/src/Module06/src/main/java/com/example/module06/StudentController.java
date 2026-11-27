@@ -23,16 +23,16 @@ public class StudentController {
         nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
 
         ObservableList<Student> studentList = FXCollections.observableArrayList(
-                new Student(1, "YiSang",  "129993"),
-                new Student(2, "Faust",  "1283"),
-                new Student(3, "Don",  "12345"),
-                new Student(4, "Ryoshu",  "12333"),
-                new Student(5, "Meursault",  "1233"),
-                new Student(6, "HongLu",  "123"),
-                new Student(7, "Heathcliff",  "123123"),
-                new Student(8, "Ishmael",  "1232"),
-                new Student(9, "Rodion",  "1232"),
-                new Student(10, "Sinclair",  "1225")
+                new Student(1, "YiSang",  "0001"),
+                new Student(2, "Faust",  "0002"),
+                new Student(3, "Don",  "0003"),
+                new Student(4, "Ryoshu",  "0004"),
+                new Student(5, "Meursault",  "0005"),
+                new Student(6, "HongLu",  "0006"),
+                new Student(7, "Heathcliff",  "0007"),
+                new Student(8, "Ishmael",  "0008"),
+                new Student(9, "Rodion",  "0009"),
+                new Student(10, "Sinclair",  "0010")
         );
 
         studentTable.setItems(studentList);
