@@ -32,7 +32,7 @@ public class StudentController {
                 new Student(7, "Heathcliff",  "0007"),
                 new Student(8, "Ishmael",  "0008"),
                 new Student(9, "Rodion",  "0009"),
-                new Student(10, "Sinclair",  "0010")
+                new Student(10, "Dante",  "0010")
         );
 
         studentTable.setItems(studentList);
