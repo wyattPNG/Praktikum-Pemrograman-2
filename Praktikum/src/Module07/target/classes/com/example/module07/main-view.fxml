@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/21"
+         fx:controller="com.example.module07.controller.MainController">
+    <Tab fx:id="customerTabController" text="Data Pelanggan">
+        <fx:include fx:id="customerTab" source="customer-tab.fxml"/>
+    </Tab>
+</TabPane>
